@@ -37,3 +37,4 @@ print(f"Twice your age is {new_age}")
 # casting to a float
 height = input("Enter your height")
 height = float(height)
+print(height)
