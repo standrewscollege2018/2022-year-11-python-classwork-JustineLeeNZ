@@ -1,15 +1,15 @@
 # how to use split() with strings
 
 #e.g. two inputs()
-name = input("Enter your name")
-print(f"Hello {name}, you are {age} years old")
+#name = input("Enter your name")
+#print(f"Hello {name}, you are {age} years old")
 
 # split an existing string into multiple variables
 
 
 # split user input into multiple variables
 name = "This is a string too"
-a,b,c,d, e = name.split(" ")
+a,b,c,d,e = name.split(" ")
 print(a)
 print(b)
 print(c)
