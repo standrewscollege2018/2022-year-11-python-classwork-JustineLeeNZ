@@ -10,7 +10,7 @@ while keep_asking == True:
 
 
     # check if loop should stop
-    if words == "n":
+    if words.lower() == "n":
 
         # set Boolean to False so loop stops
         keep_asking = False
