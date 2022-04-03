@@ -12,6 +12,7 @@ cursor = connection.cursor()
 cursor.execute("SELECT student_id, first_name, last_name FROM student")
 results = cursor.fetchall()
 
+# display results of query
 for result in results:
     print(f"{result[0]:5} {result[1]:10} {result[2]:15}")
 
