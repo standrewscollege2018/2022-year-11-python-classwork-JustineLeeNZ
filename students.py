@@ -9,7 +9,7 @@ connection = sqlite3.connect(DATABASE)
 cursor = connection.cursor()
 
 # select student names from student table
-cursor.execute("SELECT student_id, first_name, last_name FROM student")
+cursor.execute("SELECT student_id, first_name, last_name FROM student WHERE first_name='Grace'")
 results = cursor.fetchall()
 
 # display results of query
